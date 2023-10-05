@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "cormo";
+  src: url(./../fonts/CormorantGaramond-Light.ttf);
+}
+@font-face {
+  font-family: "cormob";
+  src: url(./../fonts/CormorantGaramond-Bold.ttf);
+}
+@font-face {
+  font-family: "cormoi";
+  src: url(./../fonts/CormorantGaramond-Italic.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "cormo";
+  color: #333333;
+  background-color: #e9e9e0;
+}
+.ita {
+  font-family: "cormoi";
+}
+a {
+  color: #737b80;
+  font-size: 1.25rem;
+}
+h1 {
+  font-family: "cormob";
+  font-size: 3.125rem;
+}
+h2 {
+  font-family: "cormob";
+  font-size: 2.8125rem;
+}
+h3 {
+  font-family: "cormob";
+  font-size: 2.1875rem;
+  text-align: center;
+}
+h4 {
+  font-family: "cormob";
+  font-size: 1.5rem;
+}
+h5 {
+  font-family: "cormob";
+  font-size: 1.125rem;
+}
+header {
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin: 1.25rem 0;
+  padding: 0.625rem;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+main {
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+.links div {
+  display: grid;
+  grid-template-columns: 230px 230px;
+}
+img {
+  display: block;
+  width: 470px;
+  padding-top: 0.8125rem;
+}
+section.links {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.links h3 {
+  grid-column: 1/ 3;
+}
+article {
+  padding-top: 0.8125rem;
+}
+.rechts {
+  text-align: center;
+}
+h1 {
+  padding: 1.5625rem 2.5rem;
+  border: 5px solid black;
+  margin-top: 1.25rem;
+}
+.rechts article {
+  padding: 1.5625rem 2.5rem;
+  border: 5px solid black;
+  margin-top: 1.25rem;
+}
+.ikea {
+  display: block;
+  width: 100%;
+  margin: auto;
+  padding: 1.5625rem 2.5rem;
+  border: 5px solid black;
+  margin-top: 1.25rem;
+}
